@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mm-emd:EarthProductMetadata xmlns:mpcs="http://dsms.jpl.nasa.gov/mpcs"
+    xmlns:mm-emd="http://dsms.jpl.nasa.gov/mpcs_mm-core_emd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://dsms.jpl.nasa.gov/mpcs_mm-core_emd http://dsms.jpl.nasa.gov/mpcs/MM_Core_Session.xsd"
+    EmdSchemaVersion="CFDP-1">
+
+   <mm-emd:SessionInformation>
+        <mpcs:SessionId>
+            <mpcs:Number>0</mpcs:Number>
+            <mpcs:Name>SSDEV_TEST_RUN</mpcs:Name>
+            <mpcs:FswDictionaryDir>/static-data/fsw-dict-xml-dir</mpcs:FswDictionaryDir>
+            <mpcs:FswDictionaryVersion>current</mpcs:FswDictionaryVersion>
+        </mpcs:SessionId>
+        <mpcs:Venue>
+            <mpcs:VenueType>WORKSTATION</mpcs:VenueType>
+            <mpcs:User>telitwin</mpcs:User>
+            <mpcs:Host>srl-wsts-fsw-03</mpcs:Host>
+        </mpcs:Venue>
+        <mpcs:OutputDirectory>products</mpcs:OutputDirectory>
+    </mm-emd:SessionInformation>
+
+    <mm-emd:ProductMetadata>
+
+        <mm-emd:GroundCreationTime>2023-100T21:11:40.39572</mm-emd:GroundCreationTime>
+        <mm-emd:Scid>232</mm-emd:Scid>
+        <mm-emd:Apid>980</mm-emd:Apid>
+        <mm-emd:ProductType>DP_STACAM_A_IMAGE</mm-emd:ProductType>
+        <mm-emd:Vcid>1</mm-emd:Vcid>
+        <mm-emd:GroundStatus>COMPLETE_CHECKSUM_PASS</mm-emd:GroundStatus>
+        <mm-emd:DataFilePath>products/__DAT_FILE__</mm-emd:DataFilePath>
+        <mm-emd:SequenceId>0</mm-emd:SequenceId>
+        <mm-emd:SequenceVersion>0</mm-emd:SequenceVersion>
+        <mm-emd:CommandNumber>0</mm-emd:CommandNumber>
+        <mm-emd:DvtCoarse>__SCLK_SECONDS__</mm-emd:DvtCoarse>
+        <mm-emd:DvtFine>__SCLK_SUBSECONDS__</mm-emd:DvtFine>
+        <mm-emd:FirstPartSclk>__SCLK_SECONDS__.__SCLK_SUBSECONDS__</mm-emd:FirstPartSclk>
+        <mm-emd:FirstPartScet>2023-100T21:06:29.__SCLK_SUBSECONDS__</mm-emd:FirstPartScet>
+        <mm-emd:FirstPartErt>2023-100T21:11:40.39572</mm-emd:FirstPartErt>
+        <mm-emd:ExpectedProductFileSize>8389134</mm-emd:ExpectedProductFileSize>
+        <mm-emd:ActualProductFileSize>8389134</mm-emd:ActualProductFileSize>
+        <mm-emd:PartList TotalExpected="0" TotalReceived="0">
+        </mm-emd:PartList>
+
+    </mm-emd:ProductMetadata>
+
+</mm-emd:EarthProductMetadata>
