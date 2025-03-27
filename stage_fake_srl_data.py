@@ -19,8 +19,8 @@ def main(isl_bucket, isl_prefix, count=10):
         dt = datetime.fromtimestamp(t)
         sclk_seconds = f"{int(dt.timestamp()):010}"
         sclk_subseconds = f"{int(dt.microsecond):06}"[0:5]
-        fake_dat_file = f"{apid:04}_{sclk_seconds}_{sclk_subseconds}-1.dat"
-        fake_emd_file = f"{apid:04}_{sclk_seconds}_{sclk_subseconds}-1.emd"
+        fake_dat_file = f"{apid:04}_{sclk_seconds}-{sclk_subseconds}-1.dat"
+        fake_emd_file = f"{apid:04}_{sclk_seconds}-{sclk_subseconds}-1.emd"
         new_emd_body = emd_body.replace("__SCLK_SECONDS__", sclk_seconds).replace("__SCLK_SUBSECONDS__", sclk_subseconds)    
         with open(fake_emd_file, "w") as f:
             f.write(new_emd_body)
