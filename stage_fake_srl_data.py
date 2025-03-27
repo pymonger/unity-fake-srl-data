@@ -9,8 +9,8 @@ from datetime import datetime
 
 def main(isl_bucket, isl_prefix, count=10):
     s3_client = boto3.client("s3")
-    source_dat_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "0980_0734432789-43133-1.dat")
-    source_emd_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "0980_0734432789-43133-1.emd")
+    source_dat_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fake.dat")
+    source_emd_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fake.emd")
     with open(source_emd_file) as f:
         emd_body = f.read()
     apid = 980  # 980 or 990
